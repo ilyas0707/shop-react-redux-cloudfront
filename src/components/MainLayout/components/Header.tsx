@@ -24,7 +24,7 @@ export default function Header() {
   };
 
   return (
-    <AppBar position="relative">
+    <AppBar style={{ backgroundColor: "#2E3B55" }} position="relative">
       <Toolbar>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
           <Link
